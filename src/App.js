@@ -15,9 +15,9 @@ function App() {
       <Home></Home>
       <Routes>
       <Route 
-      path="/" exact element={<IniciarTarefas />} />
+      path="/IniciarTarefas" exact element={<IniciarTarefas />} />
       <Route 
-        path="/AdicionarTarefas" exact element={<AdicionarTarefas />} />
+        path="/" exact element={<AdicionarTarefas />} />
       </Routes>
       <Footer></Footer>
     </Router>
