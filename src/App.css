@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans' , sans-serif;
+}
+
+html,
+body,
+#root {
+  background-color: #efefef;
+  height: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+    flex: 1;
+}

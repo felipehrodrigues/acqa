@@ -1,0 +1,76 @@
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarefas input {
+    height: 50px;
+    width: 50em;
+    font-size: 1em
+}
+
+.tarefas input::placeholder {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.tarefas_lista {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.tarefa_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 65%; 
+    background-color: #222;
+    padding: 0.5em;
+    border: 1px solid #092b5a ;
+    color: #efefef;
+    font-size: 1.5em;
+    margin: 0.2em 0;
+    font-weight: bolder;
+    border-radius: 2%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.397);
+}
+
+.filtros {
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: #e7d9b4 ;
+}
+
+.filtros button {
+    background-color: #222;
+    color: #fff;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+    height: 3em;
+    margin: 0.6em;
+    width: 20em;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.filtros button:hover {
+    color: #ffbb33;
+}
+
+.botoes {
+    display: flex;
+    width: 40em;
+    margin: 1em 0em;
+}
