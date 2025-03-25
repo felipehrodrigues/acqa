@@ -12,14 +12,13 @@ function App() {
   return (
     <Router>
       <Header />
-      <Home></Home>
       <Routes>
       <Route 
       path="/IniciarTarefas" exact element={<IniciarTarefas />} />
       <Route 
         path="/" exact element={<AdicionarTarefas />} />
       </Routes>
-      <Footer></Footer>
+      <Footer/>
     </Router>
   );
 }
