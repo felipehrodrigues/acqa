@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/acqa/static/css/main.236c93fd.css",
+    "main.js": "/acqa/static/js/main.d3e4e56f.js",
+    "static/js/453.c7ed0c33.chunk.js": "/acqa/static/js/453.c7ed0c33.chunk.js",
+    "index.html": "/acqa/index.html",
+    "main.236c93fd.css.map": "/acqa/static/css/main.236c93fd.css.map",
+    "main.d3e4e56f.js.map": "/acqa/static/js/main.d3e4e56f.js.map",
+    "453.c7ed0c33.chunk.js.map": "/acqa/static/js/453.c7ed0c33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.236c93fd.css",
+    "static/js/main.d3e4e56f.js"
+  ]
+}
