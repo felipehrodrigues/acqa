@@ -73,7 +73,7 @@ function AdicionarTarefas() {
       <section>
       <ul className={styles.tarefas_lista}>
   {tarefasFiltradas.map((item, index) => {
-    const tarefaIndex = tarefas.indexOf(item); // Obtém o índice real da tarefa na lista original
+    const tarefaIndex = tarefas.indexOf(item);
     return (
       <li
         key={index}
@@ -84,7 +84,7 @@ function AdicionarTarefas() {
         {!(filtro === "marcadas") && (
           <CheckBox
             marcado={item.concluida}
-            onChange={() => alternarTarefa(tarefaIndex)} // Passa o índice real da tarefa
+            onChange={() => alternarTarefa(tarefaIndex)}
           />
         )}
       </li>
