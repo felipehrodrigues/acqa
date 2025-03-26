@@ -71,18 +71,27 @@ function AdicionarTarefas() {
       </section>
 
       <section>
-        <ul className={styles.tarefas_lista}>
-          {tarefasFiltradas.map((item, index) => (
-            <li key={index} className={styles.tarefa_item}
-            style={{ textDecoration: item.concluida ? "line-through" : "none" }}>
-              {item.texto.toUpperCase()}
-              <CheckBox
-                marcado={item.concluida}
-                onChange={() => alternarTarefa(index)}
-              />
-            </li>
-          ))}
-        </ul>
+      <ul className={styles.tarefas_lista}>
+  {tarefasFiltradas.map((item, index) => {
+    const tarefaIndex = tarefas.indexOf(item); // Obtém o índice real da tarefa na lista original
+    return (
+      <li
+        key={index}
+        className={styles.tarefa_item}
+        style={{ textDecoration: item.concluida ? "line-through" : "none" }}
+      >
+        {item.texto.toUpperCase()}
+        {!(filtro === "marcadas") && (
+          <CheckBox
+            marcado={item.concluida}
+            onChange={() => alternarTarefa(tarefaIndex)} // Passa o índice real da tarefa
+          />
+        )}
+      </li>
+    );
+  })}
+</ul>
+
       </section>
     </div>
   );
