@@ -14,6 +14,8 @@ O objetivo foi criar um **gerenciador de tarefas** funcional, permitindo adicion
 
 ---
 
+## Acesse aqui: https://felipehrodrigues.github.io/acqa/
+
 ## 🚀 Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
